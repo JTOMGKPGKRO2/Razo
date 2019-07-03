@@ -200,7 +200,7 @@
                                                 <ul class="dropdown">
                                                     <li><a href="#">Libros</a></li>
                                                     <li><a href="#">Multimedia</a></li>
-                                                    
+
                                                 </ul>
                                             </li>
                                             <li><a href="#">- Souvenirs</a>
@@ -221,7 +221,7 @@
                                     <li><a href="./objetive.html">Objetivos de Razo</a></li>
                                     <li><a href="./events.html">Eventos</a></li>
                                     <li><a href="./single-blog.html">Preguntas Frecuentes</a></li>
-                                    <li><a href="./contactos.html">Contáctanos</a></li>
+                                    <li><a href="./contactos.php">Contáctanos</a></li>
                                 </ul>
 
                                 <!-- Share Icon -->
@@ -243,68 +243,6 @@
     </header>
     <!-- Header Area End -->
 
-    <!-- Latest News Area Start -->
-    <section class="razo-latest-news-area bg-overlay bg-img jarallax" style="background-image: url(img/bg-img/32.jpg);">
-        <!-- Razo Latest News Slide -->
-        <div class="razo-latest-news-slide owl-carousel">
-
-            <!-- Single Latest News Area -->
-            <div class="razo-single-latest-news-area bg-overlay bg-img" style="background-image: url(img/bg-img/22.jpg);">
-                <!-- Post Content -->
-                <div class="post-content">
-                    <a href="#" class="post-title">The light and music exposition hits los angeles</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <!-- Post Date -->
-                <div class="post-date">
-                    <h2>24</h2>
-                    <p>March</p>
-                </div>
-                <!-- Read More -->
-                <div class="read-more-btn">
-                    <a href="#" class="btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-            <!-- Single Latest News Area -->
-            <div class="razo-single-latest-news-area bg-overlay bg-img" style="background-image: url(img/bg-img/23.jpg);">
-                <!-- Post Content -->
-                <div class="post-content">
-                    <a href="#" class="post-title">The light and music exposition hits los angeles</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <!-- Post Date -->
-                <div class="post-date">
-                    <h2>24</h2>
-                    <p>March</p>
-                </div>
-                <!-- Read More -->
-                <div class="read-more-btn">
-                    <a href="#" class="btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-            <!-- Single Latest News Area -->
-            <div class="razo-single-latest-news-area bg-overlay bg-img" style="background-image: url(img/bg-img/24.jpg);">
-                <!-- Post Content -->
-                <div class="post-content">
-                    <a href="#" class="post-title">The light and music exposition hits los angeles</a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <!-- Post Date -->
-                <div class="post-date">
-                    <h2>24</h2>
-                    <p>March</p>
-                </div>
-                <!-- Read More -->
-                <div class="read-more-btn">
-                    <a href="#" class="btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Latest News Area End -->
-
     <!-- News Area Start -->
     <section class="uza-news-area section-padding-80">
         <div class="container">
@@ -312,174 +250,31 @@
                 <!-- Section Heading -->
                 <div class="col-12">
                     <div class="section-heading text-center">
-                        <h2>Latest News</h2>
+                        <h2>Pregunta por nuestros servicios</h2>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <div class="row razo-blog-masonary">
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/44.jpg" alt=""></a>
+            <div class="razo-contact-form">
+                <!-- Form -->
+                <form method="POST" id="frmAjax">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" name="nombre" id="nombre" class="form-control mb-30" placeholder="Nombre">
                         </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Does our economic model need a re-think?</a>
-                            <p>Bill Gates says there's something and fundamentally wrong with our economic model.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                        <div class="col-lg-6">
+                            <input type="email" name="correo" id="correo" class="form-control mb-30" placeholder="Correo">
                         </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/45.jpg" alt=""></a>
+                        <div class="col-12">
+                            <textarea name="comentarios" id="comentarios" class="form-control mb-30" placeholder="Comentario"></textarea>
                         </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">In the medical journal The Lancet, a study out of Seattle which looked at alcohol consumption.</a>
-                            <p>Quite a piuece of research. Quote, "The conclusions of the study are clear and unambiguous.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                        <div class="col-12">
+                            <button type="submit" class="btn razo-btn btn-3 mt-15" id="btnguardar">Enviar</button>
                         </div>
                     </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/46.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">The curious case of the stolen diggers of Manukau</a>
-                            <p>Mysteriously, more than a dozen diggers have been stolen in Counties Manukau since March.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/47.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Richard Harman from Politik joins us to talk about the latest development in this intriguing.</a>
-                            <p>Steve Hanson wants government funding for the All Blacks to help stave off lucrative offers from abroad.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/48.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Departure cards deported</a>
-                            <p>Departure cards will soon be no more, after Iain Lees-Galloway announced they'd be phased out by November.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/49.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Susan Rogers on her four intense years working for Prince</a>
-                            <p>Susan Rogers was working as a studio tech for Crosby Stills and Nash when she got the call.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/50.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Suicide prevention strategies need more resources</a>
-                            <p>My heart goes out to the family and friends of the 668 people believed to have died by suicide.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/51.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Christchurch musician Roy Montgomery on his latest album Suffuse</a>
-                            <p>Roy Montgomery is a NZ guitarist more well known in international cult music circles.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Blog Item -->
-                <div class="col-12 col-sm-6 col-lg-4 razo-blog-masonary-item mb-30">
-                    <div class="razo-blog-masonary-single-item">
-                        <!-- Post Thumbnail -->
-                        <div class="post-thumbnail">
-                            <a href="#"><img src="img/bg-img/52.jpg" alt=""></a>
-                        </div>
-                        <!-- Post Content -->
-                        <div class="post-content">
-                            <div class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> March 19, 2018</div>
-                            <a href="#" class="post-title">Pacific Heights' new album A Lost Light came to him in a dream</a>
-                            <p>Ex Shapeshifter man Devin Abrams now makes music under the name Pacific Heights.</p>
-                            <a href="#" class="btn read-more-btn">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-12 text-center">
-                    <a href="#" class="btn razo-btn mt-30">Load More</a>
-                </div>
+                </form>
             </div>
         </div>
     </section>
@@ -498,7 +293,7 @@
                             <!-- Footer Logo -->
                             <a href="#" class="footer-logo"><img src="img/core-img/logo2.png" alt=""></a>
 
-                            <p class="mb-30">Lorem ipsum dolor sit amet, consectet adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p class="mb-30">Profesionalismo, trabajo en equipo, talento y excelencia en el manejo del mercadeo y la comercialización.</p>
 
                             <!-- Footer Content -->
                             <div class="footer-content">
@@ -509,7 +304,7 @@
                                         <i class="icon_pin"></i>
                                     </div>
                                     <div class="text">
-                                        <p>24 No. Amazing Valley, Aewsome St. New York, USA</p>
+                                        <p>Calle 24 No. 23 -81 Las Nieves, Atlántico. Barranquilla, Colombia</p>
                                     </div>
                                 </div>
 
@@ -519,7 +314,7 @@
                                         <i class="icon_phone"></i>
                                     </div>
                                     <div class="text">
-                                        <p>+11 123 4567890</p>
+                                        <p>(+57) 318-344 1701</p>
                                     </div>
                                 </div>
 
@@ -529,7 +324,7 @@
                                         <i class="icon_mail_alt"></i>
                                     </div>
                                     <div class="text">
-                                        <p>info.colorlib@gmail.com</p>
+                                        <p>razo.musica@gmail.com</p>
                                     </div>
                                 </div>
 
@@ -542,7 +337,7 @@
                         <div class="single-footer-widget mb-80">
 
                             <!-- Widget Title -->
-                            <h4 class="widget-title">Twitter Feed</h4>
+                            <h4 class="widget-title">Twitts</h4>
 
                             <!-- Single Twitter Feed -->
                             <div class="single-twitter-feed d-flex">
@@ -550,7 +345,7 @@
                                     <i class="fa fa-twitter"></i>
                                 </div>
                                 <div class="tweet">
-                                    <p><a href="#">Kerem Suer</a> @kerem American conducts it first ever done strike Qaeda</p>
+                                    <p><a href="#">Axl Rose</a> @axlrose Thanks again n’ hope any1’s not 2 disappointed n’ we look 4ward 2 see every1 again in the UAE!!</p>
                                 </div>
                             </div>
 
@@ -560,7 +355,7 @@
                                     <i class="fa fa-twitter"></i>
                                 </div>
                                 <div class="tweet">
-                                    <p><a href="#">Axel Hervelle</a> @axel_hervelle Tens of thousands attend rallies held in D.C.</p>
+                                    <p><a href="#">Slash</a> @Slash Big thanks to the amazing crowd at Graspop today! You were fucking awesome! Beautiful hot day too! Doesn't get much better than that! Cheers!</p>
                                 </div>
                             </div>
 
@@ -570,7 +365,7 @@
                                     <i class="fa fa-twitter"></i>
                                 </div>
                                 <div class="tweet">
-                                    <p><a href="#">Chris Pratt</a> @chris_pratt Hundreds of protesters shut down meeting.</p>
+                                    <p><a href="#">Rolling Stone</a> @RollingStone Madonna protests gun violence in her new "God Control"</p>
                                 </div>
                             </div>
                         </div>
@@ -586,47 +381,47 @@
                             <div class="razo-instagram-area d-flex flex-wrap">
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/2.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/87.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/3.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/88.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/89.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/96.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/99.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/7.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/100.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/8.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/83.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/9.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/90.png" alt=""></a>
                                 </div>
 
                                 <!-- Single Instagram Feed -->
                                 <div class="single-instagram-feed">
-                                    <a href="#"><img src="img/bg-img/10.jpg" alt=""></a>
+                                    <a href="#"><img src="img/bg-img/103.jpg" alt=""></a>
                                 </div>
                             </div>
                         </div>
@@ -635,7 +430,7 @@
             </div>
         </div>
         <!-- Main Footer Area End -->
-        
+
         <!-- Copywrite Text -->
         <div class="copywrite-area">
             <div class="container">
@@ -643,9 +438,13 @@
                     <div class="col-12">
                         <!-- Copywrite Text -->
                         <div class="copywrite-text">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            <p>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;<script>
+                                    document.write(new Date().getFullYear());
+                                </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -657,6 +456,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- All JS Files -->
 
     <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
     <script src="js/popper.min.js"></script>
@@ -670,3 +471,24 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </body>
 
 </html>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#btnguardar').click(function() {
+            var datos = $('#frmAjax').serialize();
+            $.ajax({
+                type: "POST",
+                url: "insertar.php",
+                data: datos,
+                success: function(r) {
+                    if (r == 1) {
+                        alert("Agregado con exito");
+                    } else {
+                        alert("Fallo el server");
+                    }
+                }
+            });
+            return false;
+        });
+    });
+</script>
